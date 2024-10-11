@@ -11,7 +11,7 @@ export const operaciones = (numeros, setNumeros) => {
     const suma = () => numero1 + numero2;
     const resta = () => numero1 - numero2;
     const multiplicacion = () => numero1 * numero2;
-    const division = () => (numero2 !== 0 ? numero1 / numero2 : 'Error');  // Evitar división por 0
+    const division = () => (numero2 !== 0 ? numero1 / numero2 : 'Error');  
 
     return { handleChange, suma, resta, multiplicacion, division, numero1, numero2 };
 };
